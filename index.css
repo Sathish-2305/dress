@@ -1,0 +1,34 @@
+
+ul,ol{
+    list-style:circle ;
+    background-color:rgba(0, 255, 34, 0.925);
+    color: chartreuse;
+}
+
+/* {
+
+    display: flex;
+    gap: 60px;
+} */
+ul ol{
+    list-style: none;
+
+}
+nav{
+    text-decoration:wrap;
+    
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap; 
+    gap: 100px;
+}
+ul a{
+    text-decoration:none;
+}
+.about{
+    display: flex;
+    gap:30px
+}
